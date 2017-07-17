@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'proxima-bold';
+    src: url('/media/fonts/proximanova-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/media/fonts/proximanova-bold-webfont.woff') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'proxima-reg';
+    src: url('/media/fonts/proximanova-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/media/fonts/proximanova-regular-webfont.tff') format('truetype'), /* Safari, Android, iOS */
+}
 
 // fonts
-$sans-serif: "proxima-nova",
+$sans-serif: "proxima-reg",
 arial,
 sans-serif; // light 300, reg 400, medium 500, semibold 600
-$serif:"proxima-nova",
+$serif:"proxima-bold",
 Georgia,
 serif; // light 300, book 400, regular 500
 // pretty colors

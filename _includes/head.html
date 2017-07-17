@@ -13,13 +13,6 @@
     <meta property="og:image" content="/media/thumbnail.jpg">
     <link rel="shortcut icon" href="/media/favicon.ico">
 
-    <!-- Typekit -->
-    <script src="https://use.typekit.net/vqy0brq.js"></script>
-    <script>
-        try {
-            Typekit.load();
-        } catch (e) {}
-    </script>
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
