@@ -5,13 +5,13 @@
 }
 
 @font-face {
-    font-family: 'proxima-reg';
+    font-family: 'proxima-nova';
     src: url('/media/fonts/proximanova-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
     url('/media/fonts/proximanova-regular-webfont.tff') format('truetype'), /* Safari, Android, iOS */
 }
 
 // fonts
-$sans-serif: "proxima-reg",
+$sans-serif: "proxima-nova",
 arial,
 sans-serif; // light 300, reg 400, medium 500, semibold 600
 $serif:"proxima-bold",

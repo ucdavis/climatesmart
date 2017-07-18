@@ -19,7 +19,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: #000;
+    background: #fff;
 }
 .video-container .poster img {
     width: 100%;
@@ -29,7 +29,6 @@
 .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
     width: 100%;
 }
 .video-container video {
