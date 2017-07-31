@@ -72,3 +72,23 @@
   text-align:center;
   padding:5% 0%;
 }
+.fullscreen-graphic {
+  width:100%;
+  background-color:#000;
+  height:700px;
+  margin:56px 0px;
+
+  &.feature-cali {
+    background: url("/media/video/cali.jpg");
+    position: relative;
+    .cali-contents {
+      position: absolute;
+      top:25%;
+      left:15%;
+      width:400px;
+      h2, p {
+        color:#fff;
+      }
+    }
+  }
+}
