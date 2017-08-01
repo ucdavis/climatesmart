@@ -88,6 +88,21 @@
       width:400px;
       h2, p {
         color:#fff;
+        text-shadow: #000 0 0 2px;
+      }
+    }
+  }
+  &.feature-drought {
+    background: url("/media/video/desert-bw.png");
+    position: relative;
+    .drought-contents {
+      position: absolute;
+      top:25%;
+      left:15%;
+      width:400px;
+      h2, p {
+        color:#fff;
+        text-shadow: #000 0 0 2px;
       }
     }
   }
