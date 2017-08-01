@@ -32,6 +32,11 @@
   position: absolute;
   z-index: 2;
   bottom:10%;
+  &.layover-boots {
+    left:25%;
+    bottom:55%;
+    width:350px;
+  }
 }
 .flexer {
   display:flex;
@@ -100,6 +105,47 @@
     .drought-contents {
       margin:0 auto;
       width:600px;
+      a {
+        color:#fff;
+        text-decoration: underline;
+      }
+      h2, p {
+        color:#fff;
+        text-shadow: #000 0 0 2px;
+      }
+    }
+  }
+  &.feature-water {
+    background: url("/media/video/water_tahoe2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    .water-contents {
+      margin:0 auto;
+      width:600px;
+      a {
+        color:#fff;
+        text-decoration: underline;
+      }
+      h2, p {
+        color:#fff;
+        text-shadow: #000 0 0 2px;
+      }
+    }
+  }
+  &.feature-yang {
+    background: url("/media/video/yang_bw.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    .yang-contents {
+      margin:0 auto;
+      width:80%;
+      display:flex;
+      justify-content: space-between;
+      img {
+        float:left;
+      }
       a {
         color:#fff;
         text-decoration: underline;
