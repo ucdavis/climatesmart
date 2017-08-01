@@ -32,10 +32,15 @@
   position: absolute;
   z-index: 2;
   bottom:10%;
+  left:10%;
+  @include breakpoint(rufus) {
+    left:0%;
+  }
   &.layover-boots {
-    left:25%;
-    bottom:55%;
+    left:10%;
+    bottom:35%;
     width:350px;
+    text-shadow: #000 0 0 2px;
   }
 }
 .flexer {
@@ -45,13 +50,19 @@
   margin:0 auto;
   @include breakpoint(rufus) {
     width:92%;
+    display:block;
+    margin-left:0;
   }
 }
+
 .panel_left {
   background-color: rgba(0,114,135,0.75);
   text-align: right;
   flex:6;
   padding:2.5% 5%;
+  @include breakpoint(rufus) {
+    text-align: left;
+  }
 }
 .panel_right {
   background-color: rgba(0,142,170,0.75);
@@ -80,12 +91,12 @@
 .fullscreen-graphic {
   width:100%;
   background-color:#000;
-  height:800px;
   margin:56px 0px;
 
   &.feature-cali {
     background: url("/media/video/cali.jpg");
     position: relative;
+    height:750px;
     .cali-contents {
       position: absolute;
       top:25%;
@@ -102,9 +113,14 @@
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
+    padding-top:5%;
+    height:750px;
     .drought-contents {
       margin:0 auto;
-      width:600px;
+      width:60%;
+      @include breakpoint(rufus) {
+        width:90%;
+      }
       a {
         color:#fff;
         text-decoration: underline;
@@ -123,6 +139,7 @@
     .water-contents {
       margin:0 auto;
       width:600px;
+      padding-top:5%;
       a {
         color:#fff;
         text-decoration: underline;
@@ -138,14 +155,15 @@
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
+    height:600px;
     .yang-contents {
       margin:0 auto;
-      width:80%;
+      padding-top:5%;
+      width:60%;
       display:flex;
       justify-content: space-between;
-      img {
-        float:left;
-      }
+      @include breakpoint(rufus){
+        width:90%;}
       a {
         color:#fff;
         text-decoration: underline;
@@ -153,6 +171,32 @@
       h2, p {
         color:#fff;
         text-shadow: #000 0 0 2px;
+        padding-left:5%;
+      }
+    }
+  }
+  &.feature-plant {
+    background: url("/media/video/plant.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    height:400px;
+    .plant-contents {
+      margin:0 auto;
+      padding-top:5%;
+      width:80%;
+      display:flex;
+      justify-content: space-between;
+      @include breakpoint(rufus){
+        width:98%;}
+      a {
+        color:#fff;
+        text-decoration: underline;
+      }
+      h2, p {
+        color:#fff;
+        text-shadow: #000 0 0 2px;
+        padding-left:5%;
       }
     }
   }
