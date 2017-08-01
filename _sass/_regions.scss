@@ -75,7 +75,7 @@
 .fullscreen-graphic {
   width:100%;
   background-color:#000;
-  height:700px;
+  height:800px;
   margin:56px 0px;
 
   &.feature-cali {
@@ -94,12 +94,16 @@
   }
   &.feature-drought {
     background: url("/media/video/desert-bw.png");
+    background-repeat: no-repeat;
+    background-size:cover;
     position: relative;
     .drought-contents {
-      position: absolute;
-      top:25%;
-      left:15%;
-      width:400px;
+      margin:0 auto;
+      width:600px;
+      a {
+        color:#fff;
+        text-decoration: underline;
+      }
       h2, p {
         color:#fff;
         text-shadow: #000 0 0 2px;
