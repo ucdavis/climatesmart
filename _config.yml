@@ -4,6 +4,8 @@ description: > # this means to ignore newlines until "baseurl:"
   This project, through creative multimedia storytelling and literary science writing, is showing the human impact of climate change on our food, while sharing the hope that this research alliance can transform the world's agricultural systems in time.
 subject: Education University of California
 classification: Web Design
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://climatesmart.ucdavis.edu" # the base hostname & protocol for your site
 
 permalink: pretty
 
